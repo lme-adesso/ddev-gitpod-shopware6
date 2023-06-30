@@ -8,9 +8,7 @@ package and deploy Shopware 6 to production shops.
 
 ## Installation and usage instructions
 
-## local ddev
-
-## Install ddev 
+## Install ddev local
 https://ddev.readthedocs.io/en/latest/
 
 git clone https://github.com/lme-adesso/ddev-gitpod-shopware6.git
