@@ -6,8 +6,8 @@ webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
-additional_hostnames: ["adesso-shopware"]
-additional_fqdns: []
+additional_hostnames: []
+additional_fqdns: ["adesso-shopware.local"]
 database:
     type: mariadb
     version: "10.4"

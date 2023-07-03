@@ -17,11 +17,11 @@ git clone https://github.com/lme-adesso/ddev-gitpod-shopware6.git
 
 1. ddev start -y
 2. ddev composer install
-3. ddev exec bin/console system:setup --database-url=mysql://db:db@db:3306/db --app-url='${DDEV_PRIMARY_URL}'
+3. ddev exec bin/console system:setup --database-url=mysql://db:db@db:3306/db --app-url='adesso-shopware.local'
 4. ddev exec bin/console system:install --create-database --basic-setup
 
 # Go to:
-http://adesso-shopware.ddev.site
+http://adesso-shopware.local
 
 # Switch to docker container:
 
