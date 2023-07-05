@@ -1,4 +1,4 @@
-name: adesso-shopware
+name: radeberger.adesso
 type: shopware6
 docroot: public
 php_version: "8.1"
@@ -7,7 +7,7 @@ router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
 additional_hostnames: []
-additional_fqdns: ["adesso-shopware.local"]
+additional_fqdns: ["radeberger.adesso.localhost"]
 database:
     type: mariadb
     version: "10.4"
